@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+    <style>
+      header.header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 16px 24px;
+        background-color: #ffffff;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      header.header img {
+        height: 48px;
+        width: auto;
+        margin-right: 16px;
+        object-fit: contain;
+      }
+
+      header.header h1 {
+        font-size: 1.8rem;
+        color: #222;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <img src="/new.jpg" alt="Neuroid Logo" />
+      <h1>Neuroid</h1>
+    </header>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
